@@ -8,6 +8,6 @@ int main() {
     x++;
     z=y+3*x;
     cout<<((z%2==0 && x >= 1) ? 1 : 0);
-    //orice numar inpar
+    //orice numar impar
     return 0;
 }
