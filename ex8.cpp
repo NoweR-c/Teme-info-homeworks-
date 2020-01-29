@@ -13,7 +13,7 @@ int main() {
 		goto start;
 	}
 	sp = (a + b + c)/2;
-	ar = sqrt(sp*(sp-a)(sp-b)(sp-c));
+	ar = sqrt(sp*(sp-a)*(sp-b)*(sp-c));
 	cout<<"Semiperimetrul este: "<<sp<<endl;
 	cout<<"Aria este: "<<ar;
     return 0;
